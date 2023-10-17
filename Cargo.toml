@@ -1,0 +1,13 @@
+[package]
+name = "ippush"
+version = "0.1.0"
+edition = "2021"
+description = ""
+documentation = "https://docs.rs/ippush"
+readme = "README.md"
+repository = "https://github.com/shtsoft/ippush"
+license = "GPL-3.0-or-later"
+keywords = []
+categories = []
+
+[dependencies]
