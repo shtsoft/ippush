@@ -26,9 +26,7 @@ In the end, make sure that the docs build by running `cargo doc --no-deps --docu
 If you add code then also add tests as necessary.
 Both integration- and unit-tests.
 It is also suggested to include one documentation-test for each public API function.
-In the end, make sure that
-- all tests work as expected by running `cargo test`.
-- all executables run as expected.
+In the end, make sure that all tests work as expected by running `cargo test`.
 
 ## GitHub
 
