@@ -11,15 +11,28 @@
 [actions-badge]: https://github.com/shtsoft/ippush/actions/workflows/ci.yaml/badge.svg
 [actions-url]: https://github.com/shtsoft/ippush/actions/workflows/ci.yaml
 
-A **simple** remote procdure call returning the callers ip and a timestamp.
+A **simple** remote procdure returning the callers IP address and a timestamp.
 
 - simplicity:
   * udp as transport protocol
   * json output
   * less than 50 lines of code
 
-For documumentation see [Released API docs](https://docs.rs/ippush).
-In particular, you can find a design- and usage-description there.
+### Installation
+
+You can install ippush with `cargo` by running:
+
+```console
+user@host:~$ cargo install ippush
+```
+
+### Usage
+
+To get a usage description just run the app without arguments:
+
+```console
+user@host:~$ ippush
+```
 
 ## Contributing
 
