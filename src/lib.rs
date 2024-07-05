@@ -50,7 +50,7 @@ struct ReturnValue {
     timestamp: String,
 }
 
-/// Run the application.
+/// Runs the application.
 /// - `config` is the configuration the application is run in.
 ///
 ///  # Errors
