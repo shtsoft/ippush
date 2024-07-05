@@ -2,7 +2,7 @@
 name = "ippush"
 version = "0.1.0"
 edition = "2021"
-description = ""
+description = "An IP remote procedure"
 documentation = "https://docs.rs/ippush"
 readme = "README.md"
 repository = "https://github.com/shtsoft/ippush"
