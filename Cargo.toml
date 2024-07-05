@@ -7,8 +7,8 @@ documentation = "https://docs.rs/ippush"
 readme = "README.md"
 repository = "https://github.com/shtsoft/ippush"
 license = "GPL-3.0-or-later"
-keywords = []
-categories = []
+keywords = ["rpc", "udp", "ip"]
+categories = ["network-programming"]
 
 [dependencies]
 
