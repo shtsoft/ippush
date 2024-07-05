@@ -47,7 +47,7 @@ impl Config {
 #[derive(Serialize)]
 struct ReturnValue {
     ip: IpAddr,
-    time: String,
+    timestamp: String,
 }
 
 /// Run the application.
@@ -67,7 +67,7 @@ pub fn run(config: Config) -> Result<(), Box<dyn std::error::Error>> {
 
         let return_value = serde_json::to_string(&ReturnValue {
             ip: addr.ip(),
-            time: Utc::now().to_string(),
+            timestamp: Utc::now().to_string(),
         })?;
 
         socket.send_to(return_value.as_bytes(), addr)?;
