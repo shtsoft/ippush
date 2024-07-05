@@ -14,9 +14,9 @@
 A **simple** remote procdure returning the callers IP address and a timestamp.
 
 - simplicity:
-  * udp as transport protocol
-  * json output
-  * less than 50 lines of code
+  * UDP as transport protocol
+  * JSON output
+  * less than 100 lines of code
 
 ### Installation
 
@@ -28,11 +28,13 @@ user@host:~$ cargo install ippush
 
 ### Usage
 
-To get a usage description just run the app without arguments:
+To run the app you have to call the binary with an appropriate IP (e.g. 1.2.3.4) and port (e.g. 5678) as arguments:
 
 ```console
-user@host:~$ ippush
+user@host:~$ ippush 1.2.3.4 5678
 ```
+
+Then you can call the remote procedure by connecting to 1.2.3.4:5678 via UDP and sending arbitrary data.
 
 ## Contributing
 
