@@ -35,7 +35,7 @@ impl Config {
 
         if args.next().is_some() {
             return Err("Too many arguments".into());
-        };
+        }
 
         let addr = SocketAddr::new(IpAddr::V4(ip), port);
 
