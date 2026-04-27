@@ -11,7 +11,7 @@
 [actions-badge]: https://github.com/shtsoft/ippush/actions/workflows/ci.yaml/badge.svg
 [actions-url]: https://github.com/shtsoft/ippush/actions/workflows/ci.yaml
 
-A **simple** remote procdure returning the callers IP address and a timestamp.
+A **simple** remote procedure that returns the caller's IP address and a timestamp.
 
 - simplicity:
   * UDP as transport protocol
@@ -28,7 +28,7 @@ user@host:~$ cargo install ippush
 
 ### Usage
 
-To run the app you have to call the binary with an appropriate IP (e.g. 1.2.3.4) and port (e.g. 5678) as arguments:
+To run the app you have to execute the binary with a specified IP (e.g. 1.2.3.4) and port (e.g. 5678) as arguments:
 
 ```console
 user@host:~$ ippush 1.2.3.4 5678
